@@ -3,7 +3,10 @@
 
 require 'Database.php';
 
+//$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+
 $uri = isset($_GET['url']) ? $_GET['url'] : '/';
+
 $routes = [
         '/'=> 'controllers/index.php',
         'login'=> 'controllers/login.php',

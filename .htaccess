@@ -1,5 +1,5 @@
 RewriteEngine On
-#RewriteBase /php_practice/dynamic_webpages/
+RewriteBase /ajax_practice/
 
 # Ignore routing for existing files and directories
 RewriteCond %{REQUEST_FILENAME} !-f

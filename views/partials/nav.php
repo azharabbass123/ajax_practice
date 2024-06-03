@@ -35,9 +35,9 @@
 
                 </button>
                 <?php else : ?>
-                  <a href="userData" class="<?php echo ($_SERVER['REQUEST_URI'] === '/php_practice/dynamic_webpages/register') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">User Data</a>
-                  <a href="register" class="<?php echo ($_SERVER['REQUEST_URI'] === '/php_practice/dynamic_webpages/register') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Register without AJAX</a>
-                  <a href="login" class="<?php echo ($_SERVER['REQUEST_URI'] === '/php_practice/dynamic_webpages/login') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Register with AJAX</a>
+                  <a href="userData" class="<?php echo ($_SERVER['REQUEST_URI'] === '/ajax_practice/userData') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">User Data</a>
+                  <a href="register" class="<?php echo ($_SERVER['REQUEST_URI'] === '/ajax_practice/register') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Register without AJAX</a>
+                  <a href="login" class="<?php echo ($_SERVER['REQUEST_URI'] === '/ajax_practice/login') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Register with AJAX</a>
                     <?php endif; ?>
               </div>
               </div>
